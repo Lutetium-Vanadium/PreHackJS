@@ -1,0 +1,15 @@
+{
+  "name": "node_test",
+  "type": "module",
+  "version": "1.0.0",
+  "main": "server.js",
+  "license": "MIT",
+  "scripts": {
+    "run-server": "node server.js",
+    "build-frontend": "cd app && yarn build",
+    "run-frontend": "cd app && yarn start"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
